@@ -67,7 +67,10 @@ The major sections of the computer program are initialization, void setup (), an
 
 We then connected a 330 &Omega; resistor and an LED in series to pin 13 on our RedBoard. The circuit that we built in class is shown below.
 
-kjkljklajdsf;;;;;;;;;flpvb***********************************
+ <p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3455.JPG width = 50%> 
+</p>
+
 
 ***Discussion Questions:***    
 Your LED flashes with a delay from the uploaded code. Decrease this delay until the LED just stops blinking. That is, the point where the light is still blinking, but appears to stay constantly illuminated. 
@@ -116,7 +119,77 @@ void loop() {
 
 After this we then connected our potentiometer to power with the variable resistance pin connected to A0. This connection schematic is shown below. 
 
+ <p align="center">
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/circuit.png>
+</p>
+
+We then were sure that the program was able to run and then verified the Baud rate to be 9600 bpm.  
+After this step we combined the two previous steps to control the brightness of the LED with the potentiometer.   
+A photo of the circuit that we built is shown below. 
+
+<p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3456.JPG width=50%>
+</p>  
+The code that was used for that circuit is shown below:     
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  
+
+
+***Discussion Questions:***    
+1.**What is the difference between an analog and a digital signal?**         
+Digital signals are non-continuous electronic signals while analog signals are continuous electronic signals. 
+
+2. **In your lab report, list a few examples of real-world examples which can be described by an analog signal. Likewise, what are the two states which can be conveyed by a digital signal?**
+A few real-world examples of analog signals are temperature sensor that output a voltage that is equal to the temperature, pressure sensors that output the voltage or current level that corresponds to the measured pressure and light intensity sensors that the strength of the output signal corresponds to the intensity. They two possible states for analog signals is either Low State, which equals 0, or the High State, which equals 1. 
+               
+3. **What happens to the Serial Monitor Refresh rate as you move the potentiometer to control the LED blinking time?**     
+The Serial Monitor Refresh rate only takes measurements when the light blinks and as you increase the resistance in the potentiometer, the rate of measurements slows down as well. 
+
+
+## Part 3 - Controlling an LED with a photoresistor ##    
+For this part of the lab we used the program from part 2 and replaced the potentiometer with a photoresistor in series with a 10k&Omega; resistor. We then connected the pin to the photoresistor and ground to the resistor. The analog input was connected to the node between the photoresistor and the resistor. The photo of that circuit is shown below.
+
+<p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3457.JPG width=50%>
+</p>  
+
+
+We then tried different objects to block the light of the photoresistor. This allowed us to answer the question of what the min. and max. analog values we were able to detect with this circuit. We found the min. to be 1 and the max. to be 1004.
+
+
+We then used an if/else statement to turn on the LED light only when the brightness sensed by the photoresistor was low, similar to a night light. The code written for this step is shown below.    
+    
+if(sensorValue > 400){ digitalWrite(LED_BUILTIN, HIGH);     
+//run if true     
+           }     
+           else{ digitalWrite(LED_BUILTIN, LOW);    
+    //run if false    
+       }        
+
+    
+***Discussion Questions:***    
+1. Does the LED turn on immediately after blocking the light? What about when you remove the object blocking the light, does the LED turns of immediately?     
+The LED turns on immediately after blocking the light. The LED also turns off immediately after removing the object blocks the light.     
+
+2. Replace the 10k resistor with another LED (negative leg to ground).  What happens when you place your finger over the photoresistor?     
+When you place your finger over the photoresistor, the new LED dims while the old LED remains lit.     
+
+3. How does this help you visualize Ohm’s Law?      
+Could not get this functioning in class and was told to drop it.        
+
+
+## Part 4 - LED dimmer using PWM ## 
+We used the same circuit was that in part 2 with the potentiometer, expcept the LED pin was switched to one that was PWM capable.
+We then read the voltage from the potentiometer and mapped the voltage (0 to 1023) to a value from 0 to 255 using the function map(value, fromLow, fromHigh, toLow, toHigh). We wrote the map value to the LED pin using the function analogWrite(pin,value).
+
+
+***Discussion Questions:***      
+1. Connect the oscilloscope to the LED pin and observe and record what happens to the signal and the LED brightness when you turn the knob of the potentiometer.        
  
+Pulse Width Modulation. When you increase the resistance in the potentiometer, the LED shines brighter and vice versa. When you increase the resistance in the potentiometer, the signal width increases with it until it is a line at the top of the page and if you decrease in the potentiometer, the width decreases until it is a line at the bottom of the page 
+
+
+
+
 
 
 
