@@ -13,13 +13,17 @@ Feb. 15, 2024
 
 •	SparkFun Inventor’s kit
 
-o	RedBoard
-o	Photoresistor
-o	An LED
-o	Two 10 kΩ potentiometers
-o	A momentary button
-o	Resistors: 10 kΩ
+- RedBoard breadboard
+  
+- Photoresistor
+  
+-	An LED (any color)
+  
+-	Two 10 kΩ potentiometers
 
+-	A momentary button
+  
+- Resistors: 10 kΩ
 
 
 ### Lab Objective: Familiarize yourself with the Arduino IDE and Red Board(Arduino Uno) ###  
