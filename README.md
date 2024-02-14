@@ -5,6 +5,17 @@ Feb. 15, 2024
 
 ## Summary of Lab ##
 
+•	A 330 Ω resistor
+•	Oscilloscope: Tektronix TDS 2012
+•	A Computer running Arduino IDE
+•	SparkFun Inventor’s kit
+o	RedBoard
+o	Photoresistor
+o	An LED
+o	Two 10 kΩ potentiometers
+o	A momentary button
+o	Resistors: 10 kΩ
+
 
 
 ### Lab Objective: Familiarize yourself with the Arduino IDE and Red Board(Arduino Uno) ###  
@@ -14,6 +25,7 @@ Feb. 15, 2024
 
 
 ## Part 1 - Blinking an LED ##
+
  We began Part 1 of the lab by connecting the RedBoard to our computer and starting the Arduino IDE program.
  We then opened the Blink Program that was included in the Arduino IDE application.
 
