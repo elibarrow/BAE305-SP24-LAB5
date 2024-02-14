@@ -6,9 +6,13 @@ Feb. 15, 2024
 ## Summary of Lab ##
 
 •	A 330 Ω resistor
+
 •	Oscilloscope: Tektronix TDS 2012
+
 •	A Computer running Arduino IDE
+
 •	SparkFun Inventor’s kit
+
 o	RedBoard
 o	Photoresistor
 o	An LED
