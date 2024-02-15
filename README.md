@@ -49,7 +49,7 @@ The Blink Program code that is displayed upon opening is shown below:
 
   Turns an LED on for one second, then off for one second, repeatedly.
 
-  Most Arduinos have an on-board LED you can control. On the UNO, MEGA and ZERO
+  Most Arduinos have an onboard LED you can control. On the UNO, MEGA and ZERO
   it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to
   the correct LED pin independent of which board is used.
   If you want to know what pin the on-board LED is connected to on your Arduino
