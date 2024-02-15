@@ -192,7 +192,7 @@ Image 4: Our LED circuit with Potentiometer
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Circuit.jpg width=50%>
 </p>
 
-Image 4: Setup of our LED circuit with Potentiometer
+Image 5: Setup of our LED circuit with Potentiometer
 <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Measurement.jpg width=50%>
 </p>
@@ -202,6 +202,8 @@ We then read the voltage from the potentiometer and mapped the voltage (0 to 102
 ## Results ##
 
 **Part 1**
+
+Created the Blinking LED circuit and learned how to run code through Arduino IDE to the breadboard. We also learned what the blinking LED circuit did and how delay could be changed to affect the code.
 
 Image 1: Our Blinking LED circuit
  <p align="center">
@@ -214,12 +216,16 @@ Image 1: Our Blinking LED circuit
 
 **Part 2**
 
+Created the LED circuit with a Potentiometer and found the Baud Rate as well as set the blinking time to value read from the potentiometer.
+
 Image 2: Our LED circuit with Potentiometer 
 <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3456.JPG width=50%>
 </p>
 
 **Part 3**
+
+Created the LED circuit with a Photoresistor and found the minimum and maximum analog values you can detect with the circuit. We also created a code that would only turn on the LED when the brightness detected by the photoresistor is low.
 
 Image 3: Our LED circuit with Photoresistor
 <p align="center">
@@ -228,9 +234,31 @@ Image 3: Our LED circuit with Photoresistor
 
 **Part 4**
 
-Image 4: Setup of our LED circuit with Potentiometer
+Created the LED circuit with a Potentiometer from Part 2. Using the oscilloscope, we were able to observe the pulse width modulation (PWM) and understand how it was affected by a change in resistance from the potentiometer.
+
+Image 4: Our LED circuit with Potentiometer
+<p align="center">
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Circuit.jpg width=50%>
+</p>
+
+Image 5: Setup of our LED circuit with Potentiometer
 <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Measurement.jpg width=50%>
+</p>
+
+Image 5: PWM with low resistance
+<p align="center">
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Min%20R%20in%20Potentiometer.jpg width=50%>
+</p>
+
+Image 6: PWM with medium resistance
+<p align="center">
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Normal%20R%20in%20Potentiometer.jpg width=50%>
+</p>
+
+Image 7: PWM with high resistance
+<p align="center">
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Max%20R%20in%20Potentiometer.jpg width=50%>
 </p>
 
 
