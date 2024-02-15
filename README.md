@@ -104,7 +104,7 @@ Image 1: Our Blinking LED circuit
 </p>
 
 <p align="center">
-  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=50%>
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=75%>
 </p>  
    
 ## Part 2 - Controlling an LED with a potentiometer ##   
