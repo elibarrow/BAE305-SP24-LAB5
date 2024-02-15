@@ -44,7 +44,8 @@ Feb. 15, 2024
 
 
  We began Part 1 of the lab by creating the circuit and connecting the RedBoard to our computer.
-Our Blinking LED circuit
+
+Image 1:Our Blinking LED circuit
 <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=50%>
 </p>  
