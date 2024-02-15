@@ -45,6 +45,7 @@ There were multiple goals for this lab, with the main purpose being to learn how
 
 The Blink Program code that is displayed upon opening is shown below: 
 
+Figure 1: Schematic of Blinking LED Circuit
 <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%203.43.09%20PM.png width = 50%> 
 </p>  
@@ -54,6 +55,11 @@ The Blink Program code that is displayed upon opening is shown below:
 
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink     
 
+The following schematic was given to show how to build the circuit.
+
+<p align="center">
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Schematic%201.png width = 50%> 
+</p>
 
 We then connected a 330 &Omega; resistor and an LED in series to pin 13 on our RedBoard. The circuit that we built in class is shown below.
 
@@ -76,7 +82,7 @@ To begin part 2 of this lab we started by creating the circuit and connecting th
 
 We then connected our potentiometer to power with the variable resistance pin connected to A0. This connection schematic is shown below. 
 
-Figure 1: Schematic of LED circuit with Potentiometer
+Figure 2: Schematic of LED circuit with Potentiometer
  <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/circuit.png>
 </p>
