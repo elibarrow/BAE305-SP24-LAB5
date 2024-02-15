@@ -49,11 +49,8 @@ The Blink Program code that is displayed upon opening is shown below:
 
   Turns an LED on for one second, then off for one second, repeatedly.
 
-  Most Arduinos have an onboard LED you can control. On the UNO, MEGA and ZERO
-  it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to
-  the correct LED pin independent of which board is used.
-  If you want to know what pin the on-board LED is connected to on your Arduino
-  model, check the Technical Specs of your board at:
+  Most Arduinos have an onboard LED you can control. On the UNO, MEGA and ZERO it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to the correct LED pin independent of which board is used.
+  If you want to know what pin the on-board LED is connected to on your Arduino model, check the Technical Specs of your board at:
   https://www.arduino.cc/en/Main/Products
 
   modified 8 May 2014
@@ -97,7 +94,8 @@ We then connected a 330 &Omega; resistor and an LED in series to pin 13 on our R
 </p>
 
 
-***Discussion Questions:***    
+***Discussion Questions:***
+**Part 1**
 Your LED flashes with a delay from the uploaded code. Decrease this delay until the LED just stops blinking. That is, the point where the light is still blinking, but appears to stay constantly illuminated. 
 
 1. **What is the value of your delay now?**      
@@ -159,7 +157,8 @@ The code that was used for that circuit is shown below:
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  
 
 
-***Discussion Questions:***    
+***Discussion Questions:*** 
+**Part 2**
 1.**What is the difference between an analog and a digital signal?**         
 Digital signals are non-continuous electronic signals while analog signals are continuous electronic signals. 
 
@@ -191,7 +190,8 @@ if(sensorValue > 400){ digitalWrite(LED_BUILTIN, HIGH);
        }        
 
     
-***Discussion Questions:***    
+***Discussion Questions:***
+**Part 3**
 1. Does the LED turn on immediately after blocking the light? What about when you remove the object blocking the light, does the LED turns of immediately?     
 The LED turns on immediately after blocking the light. The LED also turns off immediately after removing the object blocks the light.     
 
@@ -207,7 +207,41 @@ We used the same circuit was that in part 2 with the potentiometer, expcept the 
 We then read the voltage from the potentiometer and mapped the voltage (0 to 1023) to a value from 0 to 255 using the function map(value, fromLow, fromHigh, toLow, toHigh). We wrote the map value to the LED pin using the function analogWrite(pin,value).
 
 
-***Discussion Questions:***      
+***Discussion Questions:***
+**Part 1**
+Your LED flashes with a delay from the uploaded code. Decrease this delay until the LED just stops blinking. That is, the point where the light is still blinking, but appears to stay constantly illuminated. 
+
+1. **What is the value of your delay now?**      
+   The Value of the delay now is 0.05. Persistence of vision has a maximum frequency or speed in which you will not be able to detect the change in light.      
+
+2. **What field may this “persistence of vision” play a greater role in?**              
+The field of designing electrical structures including lights or sensors will have “persistence of vision” play a greater role in them. 
+
+3. Discuss this further in your lab report.  
+    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+**Part 2**
+1.**What is the difference between an analog and a digital signal?**         
+Digital signals are non-continuous electronic signals while analog signals are continuous electronic signals. 
+
+2. **In your lab report, list a few examples of real-world examples which can be described by an analog signal. Likewise, what are the two states which can be conveyed by a digital signal?**
+A few real-world examples of analog signals are temperature sensor that output a voltage that is equal to the temperature, pressure sensors that output the voltage or current level that corresponds to the measured pressure and light intensity sensors that the strength of the output signal corresponds to the intensity. They two possible states for analog signals is either Low State, which equals 0, or the High State, which equals 1. 
+               
+3. **What happens to the Serial Monitor Refresh rate as you move the potentiometer to control the LED blinking time?**     
+The Serial Monitor Refresh rate only takes measurements when the light blinks and as you increase the resistance in the potentiometer, the rate of measurements slows down as well.
+
+**Part 3**
+1. Does the LED turn on immediately after blocking the light? What about when you remove the object blocking the light, does the LED turns of immediately?     
+The LED turns on immediately after blocking the light. The LED also turns off immediately after removing the object blocks the light.     
+
+2. Replace the 10k resistor with another LED (negative leg to ground).  What happens when you place your finger over the photoresistor?     
+When you place your finger over the photoresistor, the new LED dims while the old LED remains lit.     
+
+3. How does this help you visualize Ohm’s Law?      
+Could not get this functioning in class and was told to drop it.
+
+**Part 4**
+   
 1. Connect the oscilloscope to the LED pin and observe and record what happens to the signal and the LED brightness when you turn the knob of the potentiometer.        
  
 Pulse Width Modulation. When you increase the resistance in the potentiometer, the LED shines brighter and vice versa. When you increase the resistance in the potentiometer, the signal width increases with it until it is a line at the top of the page and if you decrease in the potentiometer, the width decreases until it is a line at the bottom of the page 
