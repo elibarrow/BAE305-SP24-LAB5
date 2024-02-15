@@ -156,9 +156,6 @@ Image 2: Our LED circuit with Potentiometer
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3456.JPG width=50%>
 </p>
 
-<p align="center">
-  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Circuit.jpg  width = 50%> 
-</p>
 
 The code that was used for that circuit is shown below:     
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  
