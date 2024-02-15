@@ -37,12 +37,19 @@ Feb. 15, 2024
 
 
 
-## Methods and Testing ##\
+## Methods and Testing ##
 
 **Part 1 - Blinking an LED**
 
- We began Part 1 of the lab by connecting the RedBoard to our computer and starting the Arduino IDE program.
- We then opened the Blink Program that was included in the Arduino IDE application.
+
+
+ We began Part 1 of the lab by creating the circuit and connecting the RedBoard to our computer.
+Our Blinking LED circuit
+<p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=50%>
+</p>  
+ 
+ We then opened the Arduino IDE program and downloaded the Blink Program that was included in the Arduino IDE application
 
 The Blink Program code that is displayed upon opening is shown below: 
 
@@ -171,6 +178,22 @@ We used the same circuit as that in part 2 with the potentiometer, except the LE
 We then read the voltage from the potentiometer and mapped the voltage (0 to 1023) to a value from 0 to 255 using the function map(value, fromLow, fromHigh, toLow, toHigh). We wrote the map value to the LED pin using the function analogWrite(pin,value).
 
 ## Results ##
+
+**Part 1**
+<p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=50%>
+</p>  
+
+**Part 2**
+
+<p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=50%>
+</p>  
+
+**Part 3**
+
+**Part 4**
+
 
 ## Discussion Questions ##
 
