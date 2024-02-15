@@ -32,11 +32,6 @@ There were multiple goals for this lab, with the main purpose being to learn how
   
 - Resistors: 10 kΩ
 
-**Code was required for this lab and will either need to be displayed here or later in the lab**
-
-**Eli is still retrieving the code**
-
-
 
 ## Methods and Testing ##
 
@@ -46,54 +41,17 @@ There were multiple goals for this lab, with the main purpose being to learn how
 
  We began Part 1 of the lab by creating the circuit and connecting the RedBoard to our computer.
  
- We then opened the Arduino IDE program and downloaded the Blink Program that was included in the Arduino IDE application
+ We then opened the Arduino IDE program and downloaded the Blink Program that was included in the Arduino IDE application by going to files>examples>basic>blink.
 
 The Blink Program code that is displayed upon opening is shown below: 
 
-/*
-  Blink
-
-  Turns an LED on for one second, then off for one second, repeatedly.
-
-  Most Arduinos have an onboard LED you can control. On the UNO, MEGA, and ZERO it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to the correct LED pin independent of which board is used.
-  If you want to know what pin the on-board LED is connected to on your Arduino model, check the Technical Specs of your board at:
-  https://www.arduino.cc/en/Main/Products
-
-  modified 8 May 2014
-  by Scott Fitzgerald
-  modified 2 Sep 2016
-  by Arturo Guadalupi
-  modified 8 Sep 2016
-  by Colby Newman
+<p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%203.43.09%20PM.png width = 50%> 
+</p>
 
   This example code is in the public domain.     
 
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink     
-*/
-
-// the setup function runs once when you press reset or power the board     
-void setup() {     
-  // initialize digital pin LED_BUILTIN as an output.     
-  pinMode(LED_BUILTIN, OUTPUT);      
-}
-
-// the loop function runs over and over again forever    
-void loop() {    
-  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)    
-  delay(1000);                      // wait for a second     
-  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW   
-  delay(1000);                      // wait for a second   
-}
-
-After having this code in the Arduino IDE program, we ran it while it was connected to the RedBoard to answer the following questions.
-
-**2a. What does the program do?**
-
-The blink program causes the TX (green light/serial communication) to flash every few seconds while the 13 (blue light) remains on and then turns off over and over. When an LED is connected, the LED turns on for a second and then turns off.     
-
-**2b. What are the major sections of the computer program and what does each section do?****
-        
-The major sections of the computer program are initialization, void setup (), and void loop (). The initialization sets all the values for the program, void setup () checks the communication between the Arduino and the computer and initializes pins in the circuit, and void loop () loops the code and causes the blinking.
 
 
 We then connected a 330 &Omega; resistor and an LED in series to pin 13 on our RedBoard. The circuit that we built in class is shown below.
@@ -106,47 +64,31 @@ Image 1: Our Blinking LED circuit
 
 <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=75%>
-</p>  
+</p>    
+
+
+After having this code in the Arduino IDE program and circuit built, we ran it while the computer was connected to the RedBoard to find the results.
    
 ## Part 2 - Controlling an LED with a potentiometer ##   
 
 To begin part 2 of this lab we started by creating the circuit and connecting the Redboard to our computer.
 
-We then opened the given sample program, "Analog Read Serial", and ran it on our Arduino. The code from that program is given below.    
-      
-/*
-  AnalogReadSerial
-
-  Reads an analog input on pin 0, and prints the result to the Serial Monitor.
-  Graphical representation is available using Serial Plotter (Tools > Serial Plotter menu).
-  Attach the center pin of a potentiometer to pin A0, and the outside pins to +5V and ground.   
-
-  This example code is in the public domain.    
-
-  https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial    
-*/
-
-// the setup routine runs once when you press reset:    
-void setup() {    
-  // initialize serial communication at 9600 bits per second:     
-  Serial.begin(9600);     
-}
-
-// the loop routine runs over and over again forever:     
-void loop() {     
-  // read the input on analog pin 0:     
-  int sensorValue = analogRead(A0);    
-  // print out the value you read:    
-  Serial.println(sensorValue);    
-  delay(1);  // delay in between reads for stability    
-}
-
-After this, we then connected our potentiometer to power with the variable resistance pin connected to A0. This connection schematic is shown below. 
+We then connected our potentiometer to power with the variable resistance pin connected to A0. This connection schematic is shown below. 
 
 Figure 1: Schematic of LED circuit with Potentiometer
  <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/circuit.png>
 </p>
+
+
+After building the circuit, we then opened the given sample program, "Analog Read Serial", and ran it on our Arduino. The code from that program is given below.    
+      
+ <p align="center">
+  <img src=  width = 50%>
+</p>
+This example code is in the public domain.  
+  https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial
+
 
 We then were sure that the program was able to run and then verified the Baud rate to be 9600 bpm.  
 After this step, we combined the two previous steps to control the brightness of the LED with the potentiometer.   
@@ -157,14 +99,23 @@ Image 2: Our LED circuit with Potentiometer
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3456.JPG width=50%>
 </p>
 
-
-The code that was used for that circuit is shown below:     
-$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  
-
+The code to control the LED brightness with the potentiometer is shown below.
+<p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%203.54.37%20PM.png width = 50%>
+</p>
+This example code is in the public domain.  
+  https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial
 
 ## Part 3 - Controlling an LED with a photoresistor ##    
 
 For this part of the lab, we used the program from part 2 and replaced the potentiometer with a photoresistor in series with a 10k&Omega; resistor. We then connected the pin to the photoresistor and ground to the resistor. The analog input was connected to the node between the photoresistor and the resistor. The photo of that circuit is shown below.
+
+We then used an if/else statement to turn on the LED light only when the brightness sensed by the photoresistor was low, similar to a night light. The code written for this step is shown below. 
+
+<p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%203.56.35%20PM.png width=50%>
+</p>  
+
 
 Image 3: Our LED circuit with Photoresistor
 <p align="center">
@@ -172,18 +123,7 @@ Image 3: Our LED circuit with Photoresistor
 </p>  
 
 
-We then tried different objects to block the light of the photoresistor. This allowed us to answer the question of what the min. and max. analog values we were able to detect with this circuit. We found the min. to be 1 and the max. to be 1004.
-
-
-We then used an if/else statement to turn on the LED light only when the brightness sensed by the photoresistor was low, similar to a night light. The code written for this step is shown below.    
-    
-if(sensorValue > 400){ digitalWrite(LED_BUILTIN, HIGH);     
-//run if true     
-           }     
-           else{ digitalWrite(LED_BUILTIN, LOW);    
-    //run if false    
-       }        
-
+We then tried different objects to block the light of the photoresistor. This allowed us to answer the question of what the min. and max. analog values we were able to detect with this circuit. We found the min. to be 1 and the max. to be 1004.  
 
 ## Part 4 - LED dimmer using PWM ## 
 We used the same circuit as that in part 2 with the potentiometer, except the LED pin was switched to one that was PWM capable. Below is a photo of the circuit as well as the setup with the Oscilloscope.
@@ -198,13 +138,28 @@ Image 5: Setup of our LED circuit with Potentiometer
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Measurement.jpg width=75%>
 </p>
 
-We then read the voltage from the potentiometer and mapped the voltage (0 to 1023) to a value from 0 to 255 using the function map(value, fromLow, fromHigh, toLow, toHigh). We wrote the map value to the LED pin using the function analogWrite(pin,value).
+We then read the voltage from the potentiometer and mapped the voltage (0 to 1023) to a value from 0 to 255 using the function map(value, fromLow, fromHigh, toLow, toHigh). We wrote the map value to the LED pin using the function analogWrite(pin,value). The code for this part is shown below.
+
+<p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%204.00.49%20PM.png width=75%>
+</p>
+
+
 
 ## Results ##
 
 **Part 1**
 
 Created the Blinking LED circuit and learned how to run code through Arduino IDE to the breadboard. We also learned what the blinking LED circuit did and how delay could be changed to affect the code.
+
+**We were able to answer the following questions after completing part 1** 
+**What does the program do?**
+
+The blink program causes the TX (green light/serial communication) to flash every few seconds while the 13 (blue light) remains on and then turns off over and over. When an LED is connected, the LED turns on for a second and then turns off.     
+
+**What are the major sections of the computer program and what does each section do?****
+        
+The major sections of the computer program are initialization, void setup (), and void loop (). The initialization sets all the values for the program, void setup () checks the communication between the Arduino and the computer and initializes pins in the circuit, and void loop () loops the code and causes the blinking.
 
 Image 1: Our Blinking LED circuit
  <p align="center">
