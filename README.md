@@ -6,7 +6,7 @@ Feb. 15, 2024
 ## Summary of Lab ##
 
 
-### Lab Objective: Familiarize yourself with the Arduino IDE and Red Board(Arduino Uno) ###  
+### Lab Objective: Familiarize yourself with the Arduino IDE and Red Board (Arduino Uno) ###  
 
 
 ## Lab Assignment Specific Items ##
@@ -37,7 +37,8 @@ Feb. 15, 2024
 
 
 
-## Methods and Testing ##
+## Methods and Testing ##\
+
 **Part 1 - Blinking an LED**
 
  We began Part 1 of the lab by connecting the RedBoard to our computer and starting the Arduino IDE program.
@@ -166,7 +167,7 @@ if(sensorValue > 400){ digitalWrite(LED_BUILTIN, HIGH);
 
 
 ## Part 4 - LED dimmer using PWM ## 
-We used the same circuit was that in part 2 with the potentiometer, expcept the LED pin was switched to one that was PWM capable.
+We used the same circuit as that in part 2 with the potentiometer, except the LED pin was switched to one that was PWM capable.
 We then read the voltage from the potentiometer and mapped the voltage (0 to 1023) to a value from 0 to 255 using the function map(value, fromLow, fromHigh, toLow, toHigh). We wrote the map value to the LED pin using the function analogWrite(pin,value).
 
 ## Results ##
@@ -178,7 +179,7 @@ We then read the voltage from the potentiometer and mapped the voltage (0 to 102
 Your LED flashes with a delay from the uploaded code. Decrease this delay until the LED just stops blinking. That is, the point where the light is still blinking, but appears to stay constantly illuminated. 
 
 **1. What is the value of your delay now?**      
-The Value of the delay now is 0.05. Persistence of vision has a maximum frequency or speed in which you will not be able to detect the change in light.      
+The Value of the delay now is 0.05. The persistence of vision has a maximum frequency or speed at which you will not be able to detect the change in light.      
 
 **2. What field may this “persistence of vision” play a greater role in?**              
 The field of designing electrical structures including lights or sensors will have “persistence of vision” play a greater role in them. 
