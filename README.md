@@ -111,10 +111,6 @@ Image 1: Our Blinking LED circuit
 
 To begin part 2 of this lab we started by creating the circuit and connecting the Redboard to our computer.
 
-<p align="center">
-  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Circuit.jpg  width = 50%> 
-</p>
-
 We then opened the given sample program, "Analog Read Serial", and ran it on our Arduino. The code from that program is given below.    
       
 /*
@@ -146,7 +142,7 @@ void loop() {
 
 After this, we then connected our potentiometer to power with the variable resistance pin connected to A0. This connection schematic is shown below. 
 
-Image 2: Our LED circuit with Potentiometer 
+Figure 1: Schematic of LED circuit with Potentiometer
  <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/circuit.png>
 </p>
@@ -155,9 +151,15 @@ We then were sure that the program was able to run and then verified the Baud ra
 After this step, we combined the two previous steps to control the brightness of the LED with the potentiometer.   
 A photo of the circuit that we built is shown below. 
 
+Image 2: Our LED circuit with Potentiometer 
 <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3456.JPG width=50%>
-</p>  
+</p>
+
+<p align="center">
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Circuit.jpg  width = 50%> 
+</p>
+
 The code that was used for that circuit is shown below:     
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  
 
