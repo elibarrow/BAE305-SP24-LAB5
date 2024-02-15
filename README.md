@@ -45,7 +45,7 @@ Feb. 15, 2024
 
  We began Part 1 of the lab by creating the circuit and connecting the RedBoard to our computer.
 
-Image 1:Our Blinking LED circuit
+Image 1: Our Blinking LED circuit
 <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=50%>
 </p>  
@@ -89,11 +89,14 @@ void loop() {
   delay(1000);                      // wait for a second   
 }
 
-After having this code in the Arduino IDE program, we ran it while it was connected to the RedBoard to answer the following questions.    
-1. **What does the program do?**    
+After having this code in the Arduino IDE program, we ran it while it was connected to the RedBoard to answer the following questions.
+
+**2a. What does the program do?**
+
 The blink program causes the TX (green light/serial communication) to flash every few seconds while the 13 (blue light) remains on and then turns off over and over. When an LED is connected, the LED turns on for a second and then turns off.     
 
-2. **What are the major sections of the computer program and what does each section do?**        
+**2b. What are the major sections of the computer program and what does each section do?****
+        
 The major sections of the computer program are initialization, void setup (), and void loop (). The initialization sets all the values for the program, void setup () checks the communication between the Arduino and the computer and initializes pins in the circuit, and void loop () loops the code and causes the blinking.
 
 
@@ -106,8 +109,13 @@ We then connected a 330 &Omega; resistor and an LED in series to pin 13 on our R
    
 ## Part 2 - Controlling an LED with a potentiometer ##   
 
-To begin part 2 of this lab we started by opening the given sample program, "Analog Read Serial", and ran it on our Arduino.    
-The code from that program is given below.    
+To begin part 2 of this lab we started by creating the circuit and connecting the Redboard to our computer.
+
+<p align="center">
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Circuit.jpg  width = 50%> 
+</p>
+
+We then opened the given sample program, "Analog Read Serial", and ran it on our Arduino. The code from that program is given below.    
       
 /*
   AnalogReadSerial
@@ -138,6 +146,7 @@ void loop() {
 
 After this, we then connected our potentiometer to power with the variable resistance pin connected to A0. This connection schematic is shown below. 
 
+Image 3: Our LED circuit with Potentiometer 
  <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/circuit.png>
 </p>
