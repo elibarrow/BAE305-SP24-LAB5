@@ -41,11 +41,10 @@ There were multiple goals for this lab, with the main purpose being to learn how
 
  We began Part 1 of the lab by creating the circuit and connecting the RedBoard to our computer.
  
- We then opened the Arduino IDE program and downloaded the Blink Program that was included in the Arduino IDE application by going to files>examples>basic>blink.
+ We then opened the Arduino IDE program and downloaded the Blink Program included in the Arduino IDE application by going to files>examples>basic>blink.
 
 The Blink Program code that is displayed upon opening is shown below: 
 
-Figure 1: Schematic of Blinking LED Circuit
 <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%203.43.09%20PM.png width = 50%> 
 </p>  
@@ -57,6 +56,7 @@ Figure 1: Schematic of Blinking LED Circuit
 
 The following schematic was given to show how to build the circuit.
 
+Figure 1: Schematic of Blinking LED Circuit
 <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Schematic%201.png width = 50%> 
 </p>
@@ -74,7 +74,7 @@ Image 1: Our Blinking LED circuit
 </p>    
 
 
-After having this code in the Arduino IDE program and circuit built, we ran it while the computer was connected to the RedBoard to find the results.
+After having this code in the Arduino IDE program and the circuit built, we ran it while the computer was connected to the RedBoard to find the results.
    
 ## Part 2 - Controlling an LED with a potentiometer ##   
 
@@ -88,7 +88,7 @@ Figure 2: Schematic of LED circuit with Potentiometer
 </p>
 
 
-After building the circuit, we then opened the given sample program, "Analog Read Serial", and ran it on our Arduino. The code from that program is given below.    
+After building the circuit, we opened the given sample program, "Analog Read Serial", and ran it on our Arduino. The code from that program is given below.    
       
  <p align="center">
   <img src=  https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%204.17.02%20PM.png width = 50%>
@@ -99,7 +99,7 @@ This example code is in the public domain.
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial
 
 
-We then were sure that the program was able to run and then verified the Baud rate to be 9600 bpm.  
+We then were sure that the program could run and verified the Baud rate to be 9600 bpm.  
 After this step, we combined the two previous steps to control the brightness of the LED with the potentiometer.   
 A photo of the circuit that we built is shown below. 
 
