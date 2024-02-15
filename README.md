@@ -194,7 +194,7 @@ Image 4: Our LED circuit with Potentiometer
 
 Image 5: Setup of our LED circuit with Potentiometer
 <p align="center">
-  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Measurement.jpg width=50%>
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Measurement.jpg width=75%>
 </p>
 
 We then read the voltage from the potentiometer and mapped the voltage (0 to 1023) to a value from 0 to 255 using the function map(value, fromLow, fromHigh, toLow, toHigh). We wrote the map value to the LED pin using the function analogWrite(pin,value).
@@ -243,22 +243,22 @@ Image 4: Our LED circuit with Potentiometer
 
 Image 5: Setup of our LED circuit with Potentiometer
 <p align="center">
-  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Measurement.jpg width=50%>
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Measurement.jpg width=75%>
 </p>
 
 Image 5: PWM with low resistance
 <p align="center">
-  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Min%20R%20in%20Potentiometer.jpg width=50%>
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Min%20R%20in%20Potentiometer.jpg width=100%>
 </p>
 
 Image 6: PWM with medium resistance
 <p align="center">
-  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Normal%20R%20in%20Potentiometer.jpg width=50%>
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Normal%20R%20in%20Potentiometer.jpg width=100%>
 </p>
 
 Image 7: PWM with high resistance
 <p align="center">
-  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Max%20R%20in%20Potentiometer.jpg width=50%>
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Max%20R%20in%20Potentiometer.jpg width=100%>
 </p>
 
 
