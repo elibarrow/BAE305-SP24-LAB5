@@ -192,7 +192,7 @@ Image 4: Our LED circuit with Potentiometer
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Circuit.jpg width=50%>
 </p>
 
-Image 5: Setup of our LED circuit with Potentiometer
+Image 4: Setup of our LED circuit with Potentiometer
 <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Measurement.jpg width=50%>
 </p>
@@ -202,19 +202,36 @@ We then read the voltage from the potentiometer and mapped the voltage (0 to 102
 ## Results ##
 
 **Part 1**
+
+Image 1: Our Blinking LED circuit
+ <p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3455.JPG width = 50%> 
+</p>
+
 <p align="center">
-  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=50%>
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=75%>
 </p>  
 
 **Part 2**
 
+Image 2: Our LED circuit with Potentiometer 
 <p align="center">
-  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=50%>
-</p>  
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3456.JPG width=50%>
+</p>
 
 **Part 3**
 
+Image 3: Our LED circuit with Photoresistor
+<p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3457.JPG width=50%>
+</p>  
+
 **Part 4**
+
+Image 4: Setup of our LED circuit with Potentiometer
+<p align="center">
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Measurement.jpg width=50%>
+</p>
 
 
 ## Discussion Questions ##
