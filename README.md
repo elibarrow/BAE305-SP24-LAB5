@@ -218,17 +218,17 @@ Image 5: Setup of our LED circuit with Potentiometer
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Measurement.jpg width=75%>
 </p>
 
-Image 5: PWM with low resistance
+Image 6: PWM with low resistance
 <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Min%20R%20in%20Potentiometer.jpg width=75%>
 </p>
 
-Image 6: PWM with medium resistance
+Image 7: PWM with medium resistance
 <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Normal%20R%20in%20Potentiometer.jpg width=75%>
 </p>
 
-Image 7: PWM with high resistance
+Image 8: PWM with high resistance
 <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Max%20R%20in%20Potentiometer.jpg width=75%>
 </p>
