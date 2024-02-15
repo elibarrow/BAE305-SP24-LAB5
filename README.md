@@ -44,11 +44,6 @@ Feb. 15, 2024
 
 
  We began Part 1 of the lab by creating the circuit and connecting the RedBoard to our computer.
-
-Image 1: Our Blinking LED circuit
-<p align="center">
-  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=50%>
-</p>  
  
  We then opened the Arduino IDE program and downloaded the Blink Program that was included in the Arduino IDE application
 
@@ -102,10 +97,15 @@ The major sections of the computer program are initialization, void setup (), an
 
 We then connected a 330 &Omega; resistor and an LED in series to pin 13 on our RedBoard. The circuit that we built in class is shown below.
 
+Image 1: Our Blinking LED circuit
+
  <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3455.JPG width = 50%> 
 </p>
 
+<p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=50%>
+</p>  
    
 ## Part 2 - Controlling an LED with a potentiometer ##   
 
@@ -146,7 +146,7 @@ void loop() {
 
 After this, we then connected our potentiometer to power with the variable resistance pin connected to A0. This connection schematic is shown below. 
 
-Image 3: Our LED circuit with Potentiometer 
+Image 2: Our LED circuit with Potentiometer 
  <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/circuit.png>
 </p>
