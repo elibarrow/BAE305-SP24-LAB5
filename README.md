@@ -31,6 +31,9 @@ Feb. 15, 2024
   
 - Resistors: 10 kΩ
 
+**Code was required for this lab and will either need to be displayed here or later in the lab**
+**Eli is still retrieving the code**
+
 ## Part 1 - Blinking an LED ##
 
  We began Part 1 of the lab by connecting the RedBoard to our computer and starting the Arduino IDE program.
