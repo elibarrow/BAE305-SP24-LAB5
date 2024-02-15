@@ -50,7 +50,7 @@ The Blink Program code that is displayed upon opening is shown below:
 
   Turns an LED on for one second, then off for one second, repeatedly.
 
-  Most Arduinos have an onboard LED you can control. On the UNO, MEGA and ZERO it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to the correct LED pin independent of which board is used.
+  Most Arduinos have an onboard LED you can control. On the UNO, MEGA, and ZERO it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to the correct LED pin independent of which board is used.
   If you want to know what pin the on-board LED is connected to on your Arduino model, check the Technical Specs of your board at:
   https://www.arduino.cc/en/Main/Products
 
@@ -97,13 +97,13 @@ We then connected a 330 &Omega; resistor and an LED in series to pin 13 on our R
    
 ## Part 2 - Controlling an LED with a potentiometer ##   
 
-To begin part 2 of this lab we started by opening the given sample program, "Analog Read Serial", and ran it on our Adruino.    
+To begin part 2 of this lab we started by opening the given sample program, "Analog Read Serial", and ran it on our Arduino.    
 The code from that program is given below.    
       
 /*
   AnalogReadSerial
 
-  Reads an analog input on pin 0, prints the result to the Serial Monitor.
+  Reads an analog input on pin 0, and prints the result to the Serial Monitor.
   Graphical representation is available using Serial Plotter (Tools > Serial Plotter menu).
   Attach the center pin of a potentiometer to pin A0, and the outside pins to +5V and ground.   
 
@@ -127,14 +127,14 @@ void loop() {
   delay(1);  // delay in between reads for stability    
 }
 
-After this we then connected our potentiometer to power with the variable resistance pin connected to A0. This connection schematic is shown below. 
+After this, we then connected our potentiometer to power with the variable resistance pin connected to A0. This connection schematic is shown below. 
 
  <p align="center">
   <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/circuit.png>
 </p>
 
 We then were sure that the program was able to run and then verified the Baud rate to be 9600 bpm.  
-After this step we combined the two previous steps to control the brightness of the LED with the potentiometer.   
+After this step, we combined the two previous steps to control the brightness of the LED with the potentiometer.   
 A photo of the circuit that we built is shown below. 
 
 <p align="center">
@@ -145,7 +145,7 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 ## Part 3 - Controlling an LED with a photoresistor ##    
-For this part of the lab we used the program from part 2 and replaced the potentiometer with a photoresistor in series with a 10k&Omega; resistor. We then connected the pin to the photoresistor and ground to the resistor. The analog input was connected to the node between the photoresistor and the resistor. The photo of that circuit is shown below.
+For this part of the lab, we used the program from part 2 and replaced the potentiometer with a photoresistor in series with a 10k&Omega; resistor. We then connected the pin to the photoresistor and ground to the resistor. The analog input was connected to the node between the photoresistor and the resistor. The photo of that circuit is shown below.
 
 <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3457.JPG width=50%>
