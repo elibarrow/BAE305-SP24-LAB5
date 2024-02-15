@@ -32,6 +32,7 @@ Feb. 15, 2024
 - Resistors: 10 kΩ
 
 **Code was required for this lab and will either need to be displayed here or later in the lab**
+
 **Eli is still retrieving the code**
 
 
