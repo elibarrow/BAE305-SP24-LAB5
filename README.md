@@ -5,6 +5,12 @@ Feb. 15, 2024
 
 ## Summary of Lab ##
 
+
+### Lab Objective: Familiarize yourself with the Arduino IDE and Red Board(Arduino Uno) ###  
+
+
+## Lab Assignment Specific Items ##
+
 •	A 330 Ω resistor
 
 •	Oscilloscope: Tektronix TDS 2012
@@ -24,13 +30,6 @@ Feb. 15, 2024
 -	A momentary button
   
 - Resistors: 10 kΩ
-
-
-### Lab Objective: Familiarize yourself with the Arduino IDE and Red Board(Arduino Uno) ###  
-
-
-## Lab Assignment Specific Items ##
-
 
 ## Part 1 - Blinking an LED ##
 
