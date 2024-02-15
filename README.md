@@ -165,8 +165,10 @@ $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 
 ## Part 3 - Controlling an LED with a photoresistor ##    
+
 For this part of the lab, we used the program from part 2 and replaced the potentiometer with a photoresistor in series with a 10k&Omega; resistor. We then connected the pin to the photoresistor and ground to the resistor. The analog input was connected to the node between the photoresistor and the resistor. The photo of that circuit is shown below.
 
+Image 3: Our LED circuit with Photoresistor
 <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3457.JPG width=50%>
 </p>  
@@ -186,7 +188,18 @@ if(sensorValue > 400){ digitalWrite(LED_BUILTIN, HIGH);
 
 
 ## Part 4 - LED dimmer using PWM ## 
-We used the same circuit as that in part 2 with the potentiometer, except the LED pin was switched to one that was PWM capable.
+We used the same circuit as that in part 2 with the potentiometer, except the LED pin was switched to one that was PWM capable. Below is a photo of the circuit as well as the setup with the Oscilloscope.
+
+Image 4: Our LED circuit with Potentiometer
+<p align="center">
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Circuit.jpg width=50%>
+</p>
+
+Image 5: Setup of our LED circuit with Potentiometer
+<p align="center">
+  <img src=https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/LED%20Potentiometer%20Measurement.jpg width=50%>
+</p>
+
 We then read the voltage from the potentiometer and mapped the voltage (0 to 1023) to a value from 0 to 255 using the function map(value, fromLow, fromHigh, toLow, toHigh). We wrote the map value to the LED pin using the function analogWrite(pin,value).
 
 ## Results ##
