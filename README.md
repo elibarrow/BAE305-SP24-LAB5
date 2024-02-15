@@ -184,8 +184,10 @@ The field of designing electrical structures including lights or sensors will ha
 
 **3. Discuss this further in your lab report.**  
     $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+    
 
 **Part 2**
+
 **1. What is the difference between an analog and a digital signal?**         
 Digital signals are non-continuous electronic signals while analog signals are continuous electronic signals. 
 
@@ -195,7 +197,9 @@ A few real-world examples of analog signals are temperature sensors that output 
 **3. What happens to the Serial Monitor Refresh rate as you move the potentiometer to control the LED blinking time?**     
 The Serial Monitor Refresh rate only takes measurements when the light blinks and as you increase the resistance in the potentiometer, the rate of measurements slows down as well.
 
+
 **Part 3**
+
 **1. Does the LED turn on immediately after blocking the light? What about when you remove the object blocking the light, does the LED turn off immediately?**    
 The LED turns on immediately after blocking the light. The LED also turns off immediately after removing the object blocks the light.     
 
@@ -204,6 +208,7 @@ When you place your finger over the photoresistor, the new LED dims while the ol
 
 **3. How does this help you visualize Ohm’s Law?**      
 Could not get this functioning in class and was told to drop it.
+
 
 **Part 4**
    
