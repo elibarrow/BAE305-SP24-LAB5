@@ -5,6 +5,7 @@ Feb. 15, 2024
 
 ## Summary of Lab ##
 
+There were multiple goals for this lab, with the main purpose being to learn how to run code through a breadboard using Arduino IDE. To understand this we created four different circuits involving LEDs and resistors and ran code through the breadboard to learn how the code behaved when it interacted with the circuit. The first circuit contained an LED that was blinking due to code and the second circuit involved controlling an LED through a potentiometer and setting the blinking time to the value read from the potentiometer. The third circuit contained an LED with a photoresistor and by implementing code, as the photoresistor detected a lower brightness, the LED would turn on. Lastly, the fourth circuit involved using the same circuit as the second circuit connected to the oscilloscope and observing the pulse width modulation and how it was affected by changes in resistance caused by the potentiometer. By completing this lab, some secondary goals were also achieved with us learning about the persistence of vision and how it affects light and sensors, learning the difference between analog and digital signals, understanding the purpose of a photoresistor, and becoming familiar with pulse width modulation (PWM) and how it is affected by changes in resistance.
 
 ### Lab Objective: Familiarize yourself with the Arduino IDE and Red Board (Arduino Uno) ###  
 
