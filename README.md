@@ -174,6 +174,7 @@ We then read the voltage from the potentiometer and mapped the voltage (0 to 102
 ## Discussion Questions ##
 
 **Part 1**
+
 Your LED flashes with a delay from the uploaded code. Decrease this delay until the LED just stops blinking. That is, the point where the light is still blinking, but appears to stay constantly illuminated. 
 
 **1. What is the value of your delay now?**      
