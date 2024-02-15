@@ -35,7 +35,7 @@ There were multiple goals for this lab, with the main purpose being to learn how
 
 ## Methods and Testing ##
 
-**Part 1 - Blinking an LED**
+## Part 1 - Blinking an LED ##
 
 
 
