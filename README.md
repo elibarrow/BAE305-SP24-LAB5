@@ -47,8 +47,9 @@ The Blink Program code that is displayed upon opening is shown below:
 
 <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%203.43.09%20PM.png width = 50%> 
-</p>
+</p>  
 
+**Code Display 1: Blink Code**    
   This example code is in the public domain.     
 
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink     
@@ -63,7 +64,7 @@ Image 1: Our Blinking LED circuit
 </p>
 
 <p align="center">
-  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=75%>
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=50%>
 </p>    
 
 
@@ -84,8 +85,10 @@ Figure 1: Schematic of LED circuit with Potentiometer
 After building the circuit, we then opened the given sample program, "Analog Read Serial", and ran it on our Arduino. The code from that program is given below.    
       
  <p align="center">
-  <img src=  width = 50%>
+  <img src=  https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%204.17.02%20PM.png width = 50%>
 </p>
+
+**Code Display 2: Analog Read Serial**    
 This example code is in the public domain.  
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial
 
@@ -103,24 +106,30 @@ The code to control the LED brightness with the potentiometer is shown below.
 <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%203.54.37%20PM.png width = 50%>
 </p>
-This example code is in the public domain.  
+
+**Code Display 3: Potentiometer & LED Brightness**    
+Part of this example code is in the public domain.  
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/AnalogReadSerial
 
 ## Part 3 - Controlling an LED with a photoresistor ##    
 
 For this part of the lab, we used the program from part 2 and replaced the potentiometer with a photoresistor in series with a 10k&Omega; resistor. We then connected the pin to the photoresistor and ground to the resistor. The analog input was connected to the node between the photoresistor and the resistor. The photo of that circuit is shown below.
 
-We then used an if/else statement to turn on the LED light only when the brightness sensed by the photoresistor was low, similar to a night light. The code written for this step is shown below. 
 
-<p align="center">
-  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%203.56.35%20PM.png width=50%>
-</p>  
 
 
 Image 3: Our LED circuit with Photoresistor
 <p align="center">
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/IMG_3457.JPG width=50%>
 </p>  
+
+After building the circuit, we then used an if/else statement to turn on the LED light only when the brightness sensed by the photoresistor was low, similar to a night light. The code written for this step is shown below. 
+
+<p align="center">
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%203.56.35%20PM.png width=50%>
+</p>  
+
+**Code Display 4: Nightlight Code**    
 
 
 We then tried different objects to block the light of the photoresistor. This allowed us to answer the question of what the min. and max. analog values we were able to detect with this circuit. We found the min. to be 1 and the max. to be 1004.  
@@ -144,6 +153,7 @@ We then read the voltage from the potentiometer and mapped the voltage (0 to 102
   <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Screenshot%202024-02-15%20at%204.00.49%20PM.png width=75%>
 </p>
 
+**Code Display 5: Mapping**   
 
 
 ## Results ##
@@ -152,7 +162,7 @@ We then read the voltage from the potentiometer and mapped the voltage (0 to 102
 
 Created the Blinking LED circuit and learned how to run code through Arduino IDE to the breadboard. We also learned what the blinking LED circuit did and how delay could be changed to affect the code.
 
-**We were able to answer the following questions after completing part 1** 
+**We were able to answer the following questions after completing part 1**    
 **What does the program do?**
 
 The blink program causes the TX (green light/serial communication) to flash every few seconds while the 13 (blue light) remains on and then turns off over and over. When an LED is connected, the LED turns on for a second and then turns off.     
@@ -167,12 +177,12 @@ Image 1: Our Blinking LED circuit
 </p>
 
 <p align="center">
-  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=75%>
+  <img src= https://github.com/elibarrow/BAE305-SP24-LAB5/blob/main/Blinking%20LED%20Circuit.jpeg width=50%>
 </p>  
 
 **Part 2**
 
-Created the LED circuit with a Potentiometer and found the Baud Rate as well as set the blinking time to value read from the potentiometer.
+Created the LED circuit with a Potentiometer and found the Baud Rate at 9600bpm as well as set the blinking time to value read from the potentiometer.
 
 Image 2: Our LED circuit with Potentiometer 
 <p align="center">
@@ -181,7 +191,7 @@ Image 2: Our LED circuit with Potentiometer
 
 **Part 3**
 
-Created the LED circuit with a Photoresistor and found the minimum and maximum analog values you can detect with the circuit. We also created a code that would only turn on the LED when the brightness detected by the photoresistor is low.
+Created the LED circuit with a Photoresistor and we found the min. to be 1 and the max. to be 1004 that you could detect with the circuit. We also created a code that would only turn on the LED when the brightness detected by the photoresistor is low.
 
 Image 3: Our LED circuit with Photoresistor
 <p align="center">
