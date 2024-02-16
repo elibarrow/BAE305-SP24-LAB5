@@ -245,9 +245,9 @@ The Value of the delay now is 0.05. The persistence of vision has a maximum freq
 
 **2. What field may this “persistence of vision” play a greater role in?**              
 The field of designing electrical structures including lights or sensors will have “persistence of vision” play a greater role in them. 
+This can be used to your advantage when designing structures because the human retina obtains the image seen in our vision for 1/16th of a second after it has already passed, when designing a lighting system you can only have the object blink 16+ times a second and the user would never be able to tell the differnece than if it was constantly on. This could be used in many different scenarios to save energy by pulsating light rather than constantly leaving it on.     
 
-**3. Discuss this further in your lab report.**  
-    $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
     
 
 **Part 2**
